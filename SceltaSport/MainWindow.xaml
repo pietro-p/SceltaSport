@@ -13,9 +13,9 @@
         <Label Content="Nome" HorizontalAlignment="Left" Margin="179,24,0,0" VerticalAlignment="Top"/>
         <Label Content="Età" HorizontalAlignment="Left" Margin="581,24,0,0" VerticalAlignment="Top"/>
         <Label Content="Cognome" HorizontalAlignment="Left" Margin="372,24,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rdbNuoto" Content="Nuoto" HorizontalAlignment="Left" Margin="378,191,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rdbPallavolo" Content="Pallavolo" HorizontalAlignment="Left" Margin="577,191,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rdbCalcio" Content="Calcio" HorizontalAlignment="Left" Margin="170,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdbNuoto" Content="Nuoto" HorizontalAlignment="Left" Margin="378,191,0,0" VerticalAlignment="Top" GroupName="Sport"/>
+        <RadioButton x:Name="rdbPallavolo" Content="Pallavolo" HorizontalAlignment="Left" Margin="577,191,0,0" VerticalAlignment="Top" GroupName="Sport"/>
+        <RadioButton x:Name="rdbCalcio" Content="Calcio" HorizontalAlignment="Left" Margin="170,191,0,0" VerticalAlignment="Top" GroupName="Sport"/>
         <Label Content="Seleziona il tuo sport preferito" HorizontalAlignment="Left" Margin="264,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.598,0.519" Height="43" Width="294" FontWeight="Bold" FontSize="18"/>
         <RadioButton x:Name="rdbJuventus" Content="Juventus" HorizontalAlignment="Left" Margin="156,300,0,0" VerticalAlignment="Top"/>
         <Label Content="Seleziona la tua squadra preferita" HorizontalAlignment="Left" Margin="99,268,0,0" VerticalAlignment="Top" Width="191"/>

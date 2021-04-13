@@ -74,6 +74,18 @@ namespace SceltaSport
 
         private void btnContinua_Click(object sender, RoutedEventArgs e)
         {
+            rdbJuventus.IsEnabled = false;
+            rdbInter.IsEnabled = false;
+            rdbRoma.IsEnabled = false;
+            rdbMilan.IsEnabled = false;
+            rdbPellegrini.IsEnabled = false;
+            rdbPhepls.IsEnabled = false;
+            rdbThorpe.IsEnabled = false;
+            rdbSpitz.IsEnabled = false;
+            rdbIvan.IsEnabled = false;
+            rdbTofoli.IsEnabled = false;
+            rdbGravina.IsEnabled = false;
+            rdbGiannelli.IsEnabled = false; 
 
             if (rdbCalcio.IsChecked == true)
             {
